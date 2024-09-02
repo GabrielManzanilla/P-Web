@@ -1,0 +1,32 @@
+html{
+    height: 100%;
+    margin: 0;
+}
+body{
+    background: linear-gradient(to right, blueviolet, red) ;
+    display: block;
+    justify-items: center;
+    font-family: 'JetBrains Mono';
+    position: relative;
+    min-height: 100%;
+}
+body ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+}
+header{
+    display: inline-flex;
+}
+header *{
+    padding: 5%;
+}
+footer{
+    background: black;
+    color: aliceblue;
+    display:absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
