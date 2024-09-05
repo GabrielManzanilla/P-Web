@@ -1,33 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Page</title>
+    <link rel="preload" href="styles.css" as="style">
     <link rel="stylesheet" href="styles.css">
-</head> 
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
 <body>
     <header>
-        <h1>Gabriel Manzanilla</h1>
-        <h2>Merida, Yucatan</h2>
+        <h1 class="title">PROGRAMACION WEB<span>Junior</span></h1>
+        <div class="presentation">
+            <h1>Gabriel Manzanilla</h1>
+            <h2>Merida, Yucatan</h2>
+            <span class="material-symbols-outlined"> </span>
+        </div>
     </header>
     <main>
         <h3>Mis Servicios</h3>
         <ul>
             <li>
                 <h2>Web Dessigner</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit suscipit exercitationem similique, itaque ea cupiditate nemo earum nesciunt eos, placeat eaque blanditiis hic ducimus illo dolorem eius atque expedita odit?</p>
+                <span class="material-symbols-outlined">palette</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit suscipit exercitationem similique,
+                    itaque ea cupiditate nemo earum nesciunt eos, placeat eaque blanditiis hic ducimus illo dolorem eius
+                    atque expedita odit?</p>
             </li>
             <li>
                 <h2>Mobile app</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit suscipit exercitationem similique, itaque ea cupiditate nemo earum nesciunt eos, placeat eaque blanditiis hic ducimus illo dolorem eius atque expedita odit?</p>
+                <span class="material-symbols-outlined">android</span>
+                <span class="material-symbols-outlined"> ios</span>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit suscipit exercitationem similique,
+                    itaque ea cupiditate nemo earum nesciunt eos, placeat eaque blanditiis hic ducimus illo dolorem eius
+                    atque expedita odit?</p>
             </li>
             <li>
                 <h2>E-commerce</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit suscipit exercitationem similique, itaque ea cupiditate nemo earum nesciunt eos, placeat eaque blanditiis hic ducimus illo dolorem eius atque expedita odit?</p>
+                <span class="material-symbols-outlined">credit_card</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit suscipit exercitationem similique,
+                    itaque ea cupiditate nemo earum nesciunt eos, placeat eaque blanditiis hic ducimus illo dolorem eius
+                    atque expedita odit?</p>
             </li>
         </ul>
+
+        <form action="">
+            <fieldset>
+                <legend>Llena tus datos de contacto</legend>
+                <label>Nombre: <input type="text" placeholder="John Doe"></label>
+                <br>
+                <label>Cel: <input type="tel" placeholder="99990099999"></label>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Send me a email</legend>
+                <label>Email: <input type="email" placeholder="user123@gmail.com"></label>
+                <br>
+                <label>Mensaje: <textarea placeholder="ingresa tu mensaje aqui :)"></textarea></label>
+                <br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+            <br>
+        </form>
     </main>
-   <footer>©️ Todos los derechos reservados</footer>
+    <footer>©️ Todos los derechos reservados</footer>
 </body>
+
 </html>
